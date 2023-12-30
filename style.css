@@ -1,0 +1,67 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css');
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: silver;
+}
+
+header {
+  background: white;
+  padding: 8px;
+  width: 97%;
+  margin: 1pc;
+  border-radius: 18px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav img {
+  margin-right: 20px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+}
+
+.search {
+  border-radius:20px;
+  height: 19px;
+  width: 13pc;
+  margin-right: 5px;
+  background-color: silver;
+}
+
+.search-button {
+  width: 32px;
+  height: 19px;
+  display: flex;
+  justify-content: center;
+  border-radius:20px;
+}
+.search-icon {
+  font-size: 18px;
+  cursor: pointer;
+}
