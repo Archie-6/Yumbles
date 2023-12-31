@@ -1,4 +1,6 @@
 let btn = document.getElementById("searchButton")
-btn.addEventListener("click", function() {
-    alert("Nothing found");
+
+btn.addEventListener("click", () => {
+    alert("Nothing found")
+    console.log("Nothing");
 });
