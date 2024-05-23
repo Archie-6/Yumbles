@@ -71,6 +71,20 @@ nav a {
   background-color: turquoise; 
 }
 
+.mainImage{
+ 
+}
+.template {
+  margin: 65px;
+  margin-left: 174px;
+  width: 1573px;
+  height: 591px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
 @media screen and (max-width: 600px) {
   nav img {
     margin-right: 10px;
